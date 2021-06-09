@@ -1,5 +1,11 @@
 .App {
+  margin: 10% 30% 10% 30%;
   text-align: center;
+  border-radius: 10%;
+  background-image: linear-gradient(#fce3f4, #f2a5ed);
+  border-color: purple;
+  border-style: solid;
+  border-width: 0.5vh;
 }
 
 .App-logo {
@@ -35,4 +41,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-image: url("love.jpeg");
+}
+
+#logo {
+  height: 10vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#emotion {
+  height: 10vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.inputname {
+  border-radius: 10%;
+  border-color: pink;
+  width: 40%;
+  /* border-bottom: 2px solid #000;
+     box-shadow: 0 2px 2px 0 #61dafb; */
+}
+
+.ButtonBackground {
+  background: hsl(340deg 100% 32%);
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.ButtonText {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background: hsl(345deg 100% 47%);
+  color: white;
+  font-weight: bold;
+  transform: translateY(-6px);
+}
+
+.ButtonBackground:active .ButtonText {
+  transform: translateY(-2px);
+}
+
+.AppLabel {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #801332;
 }
