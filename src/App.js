@@ -8,7 +8,7 @@ class App extends React.Component {
       maleName: '',
       femaleName: '',
       percent: 0.0,
-      imageUrl: ''
+      imageUrl: 'question.png'
     };
   }
 
